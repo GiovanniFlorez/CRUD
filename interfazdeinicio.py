@@ -6,9 +6,9 @@ def login():
     password = entry_password.get()
 
     credentials = {
-        "giovanni": "sisoyyolojuro",
-        "jesus": "voyahacerlavista",
-        "henry": "llegoelmasperronaqui"
+        "1093743462": "sisoyyolojuro",
+        "1090369704": "voyahacerlavista",
+        "1090374464": "llegoelmasperronaqui"
     }
 
     if credentials.get(username) == password:
@@ -25,11 +25,11 @@ root.configure(bg="lightblue")
 frame = tk.Frame(root, bg="lightblue")
 frame.place(relx=0.5, rely=0.5, anchor="center")
 
-label_username = tk.Label(frame, text="Nombre de usuario", bg="lightblue")
-label_username.grid(row=0, column=0, pady=10)
+label_usuario = tk.Label(frame, text="Usuario", bg="lightblue")
+label_usuario.grid(row=0, column=0, pady=10)
 
-entry_username = tk.Entry(frame)
-entry_username.grid(row=1, column=0, pady=5)
+entry_usuario = tk.Entry(frame)
+entry_usuario.grid(row=1, column=0, pady=5)
 
 label_password = tk.Label(frame, text="Contraseña", bg="lightblue")
 label_password.grid(row=2, column=0, pady=10)
