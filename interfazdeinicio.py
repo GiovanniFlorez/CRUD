@@ -6,9 +6,9 @@ def login():
     password = entry_password.get()
 
     credentials = {
-        "1093743462": "sisoyyolojuro",
-        "1090369704": "voyahacerlavista",
-        "1090374464": "llegoelmasperronaqui"
+        "giovanni": "1093743462",
+        "jesus": "1090369704",
+        "henry": "1090374464"
     }
 
     if credentials.get(username) == password:
